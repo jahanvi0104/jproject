@@ -20,64 +20,98 @@ body{
     text-decoration:underline;
     text-decoration-thickness:2px;
 }
-}
+
 .menuarea{
-    padding:20px 0;
+    padding:10px 0;
     background:white;
 }
+.mega-menu {
+    position:static;
+
+}
+.mega-menu .dropdown-menu {
+position: absolute;  
+  top: 100%;            
+  left: 0;              
+  right: 0;             
+  width: 100vw;         
+  min-width: unset;     
+  border-radius: 0;
+}
+.mega-menu h6 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      
+}
+.mega-menu .dropdown-menu img{
+    width: 240px;
+}
+.mega-menu a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      margin-bottom: 0.5rem;
+}
+.mega-menu a:hover{
+    text-decoration:underline;
+}   
+    
 .boxlogo{
     padding:10px 0;
   
-}
-.menuarea h2{
-    font-size:24px;
-    margin-left:340px;
-    margin-top:18px;
-    margin-right:0px;
-}
-.menuarea h2:hover{
-    cursor: pointer;
-    text-decoration:underline;
-}
-.box1{
-    
-   padding:10px 0;
-    
-}
 
-.box2{
-   padding:10px 0;
 }
-.box3{
-   padding:10px 0;
+.boxshop{
+    padding-left:130px;
+}
+.boxgift{
+    padding-left:130px;
 }
 .barea{
     padding:3px 0;
     background-color:white;
 }
 .carea{
-    padding:40px 0;
+    padding:30px 0;
     background:white;
 }
 .box4{
-    padding:130px 0;
- 
+    padding:7px 0;
     background-image:url('k.jpg');
 				background-size:cover;
 				background-position:center;
 				background-repeat:no-repeat;
 }
-.box5{
-    padding:130px 0;
+.box4:hover{
+    cursor: pointer;
+}
+.kbox{
+    padding-left:150px;
+    padding-top:190px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 
+.box5{
+    padding:7px 0;
     background-image:url('e.webp');
 				background-size:cover;
 				background-position:center;
 				background-repeat:no-repeat;
 
 }
+.box5:hover{
+    cursor: pointer;
+}
+.ebox{
+    padding-left:100px;
+    padding-top:190px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
 .box6{
-    padding:130px 0;
+    padding:7px 0;
  
     background-image:url('t.webp');
 				background-size:cover;
@@ -85,49 +119,99 @@ body{
 				background-repeat:no-repeat;
 
 }
+.box6:hover{
+    cursor: pointer;
+}
+.tbox{
+    padding-left:100px;
+    padding-top:190px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    transition: transform 0.9s ease;
+}
 .darea{
     padding:10px 0;
     background:white;
 }
 .box7{
-    padding:230px 0;
+    padding:120px 0;
     background-image:url('mn.webp');
 				background-size:cover;
 				background-position:center;
 				background-repeat:no-repeat;
+}
+.textbox3{
+    padding-left:30px;
+}
+.textbox3 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+}
+.textbox3 p{
+    font-family:comic sans ms;
 }
 .earea{
     padding:30px 0;
     background:white;
 }
 .box8{
-    padding:300px 0;
+    padding:80px 0;
     background-image:url('bc.jpg');
 				background-size:cover;
 				background-position:center;
 				background-repeat:no-repeat;
-
+    
+}
+.abox8{
+    padding-top:300px;
+    padding-left:30px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bbox8{
+    padding-left:30px;
+    padding-top:10px;
 }
 .box9{
-    padding:150px 0;
+    padding:38px 0;
     background-image:url('ed.jpg');
 				background-size:cover;
 				background-position:center;
-				background-repeat:no-repeat;
+                background-repeat:no-repeat;
+}
+.abox9{
+    color:white;
+    padding-left:30px;
+    padding-top:110px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bbox9{
+    padding-left:30px;
+    padding-top:10px;
 }
 .box10{
-    padding:150px 0;
+    padding:38px 0;
     background-image:url('ef.jpg');
 				background-size:cover;
 				background-position:center;
 				background-repeat:no-repeat;
+}
+.abox10{
+    color:white;
+    padding-left:30px;
+    padding-top:140px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bbox10{
+    padding-left:30px;
+    padding-top:10px;
 }
 .farea{
     padding:20px 0;
     background:white; 
 }
 .box11{
-    padding:200px 0;
+    padding:120px 0;
     background-image:url('bj.webp');
 				background-size:cover;
 				background-position:center;
@@ -141,13 +225,18 @@ body{
 .box12{
     padding:10px 0;
     background:#F1F5F9;
+    overflow: hidden;
 }
 .abox12{
     padding:150px 0;
     background-image:url('bi.webp');
 				background-size:cover;
 				background-position:center;
-				background-repeat:no-repeat;    
+				background-repeat:no-repeat; 
+     transition: transform 0.6s ease;    
+}
+.abox12:hover{
+    transform:scale(1.1);
 }
 .bbox12{
     text-align:center;
@@ -160,13 +249,18 @@ body{
 .box13{
     padding:10px 0;
     background:#F1F5F9;
+    overflow: hidden;
 }
 .abox13{
     padding:150px 0;
     background-image:url('ek.webp');
 				background-size:cover;
 				background-position:center;
-				background-repeat:no-repeat;    
+				background-repeat:no-repeat;
+    transition: transform 0.6s ease;   
+}
+.abox13:hover{
+    transform:scale(1.1);
 }
 .bbox13{
     text-align:center;
@@ -178,14 +272,19 @@ body{
 }
 .box14{
     padding:10px 0;
-    background:#F1F5F9;    
+    background:#F1F5F9;
+    overflow: hidden;    
 }
 .abox14{
     padding:150px 0;
     background-image:url('sh.webp');
 				background-size:cover;
 				background-position:center;
-				background-repeat:no-repeat;     
+				background-repeat:no-repeat;
+    transition: transform 0.6s ease;      
+}
+.abox14:hover{
+    transform:scale(1.1);
 }
 .bbox14{
     text-align:center;
@@ -194,4 +293,62 @@ body{
 .cbox14{
     text-align:center;
     font-family:comic sans ms;    
+}
+.box15{
+    padding:10px 0;
+    background:#F1F5F9;
+    overflow: hidden;
+}
+.abox15{
+    padding:150px 0;
+    background-image:url('bo.webp');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat; 
+    transition: transform 0.6s ease;    
+}
+.abox15:hover{
+    transform:scale(1.1);
+}
+.bbox15{
+    text-align:center;
+    font-family:comic sans ms;    
+}
+.cbox15{
+    text-align:center;
+    font-family:comic sans ms;    
+}
+.textbox1{
+    color:white;
+    padding-left:40px;
+    font-size:15px;
+}
+.textbox1 p{
+    font-family:comic sans ms;
+}
+.textbox1 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+}
+.harea{
+    padding:10px 0;
+    background:white;
+}
+.box16{
+    padding:100px 0;
+    background-image:url('kl.jpg');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat; 
+}
+.wbox{
+    color:white;
+    padding-left:40px;
+}
+.wbox h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+}
+.wbox p{
+    font-family:comic sans ms;
 }

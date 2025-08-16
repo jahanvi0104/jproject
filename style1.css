@@ -1,0 +1,190 @@
+body{
+
+}
+.toparea{
+    padding:0px;
+    background:black;
+    text-align:center;
+    color:white;
+}
+.toparea h1{
+    font-size:15px;
+    margin-top:5px;
+}
+.toparea h5{
+    font-size:15px;
+    margin-top:5px;
+}
+.toparea h5:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+}
+
+.menuarea{
+    padding:10px 0;
+    background:white;
+}
+.mega-menu {
+    position:static;
+
+}
+.mega-menu .dropdown-menu {
+position: absolute;  
+  top: 100%;            
+  left: 0;              
+  right: 0;             
+  width: 100vw;         
+  min-width: unset;     
+  border-radius: 0;
+}
+.mega-menu h6 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      
+}
+.mega-menu .dropdown-menu img{
+    width: 240px;
+}
+.mega-menu a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      margin-bottom: 0.5rem;
+}
+.mega-menu a:hover{
+    text-decoration:underline;
+}   
+    
+.boxlogo{
+    padding:10px 0;
+  
+
+}
+.boxshop{
+    padding-left:130px;
+}
+.boxgift{
+    padding-left:130px;
+}
+.barea{
+    padding:10px 0;
+    background:white;
+}
+.box1{
+    padding:190px 0;
+    background-image:url('kn.webp');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+}
+.abox1{
+    color:white;
+    padding-left:50px;
+  
+}
+.abox1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+}
+.abox1 p{
+    font-family:comic sans ms;
+}
+.carea{
+    padding:100px 0;
+    background:white;
+}
+.carea h3{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+}
+.box2{
+    padding:4px 0;
+    background:#F1F5F9;
+    overflow: hidden;
+   
+}
+
+.abox2{
+    padding:200px 0;
+    background-image:url('jh.webp');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+     transition: transform 0.6s ease;
+}
+
+.abox2:hover{
+    transform:scale(1.2);
+
+}
+.box3{
+    padding:4px 0;
+    background:#F1F5F9;
+    overflow: hidden;
+   
+}
+.abox3{
+    padding:200px 0;
+    background-image:url('https://harrypottershop.co.uk/cdn/shop/products/PL00010110_1_grande_3d639a06-d3b1-4ea0-842d-f21da99d44c4.png?v=1679958981&width=533');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+     transition: transform 0.6s ease;
+}
+.abox3:hover{
+    transform:scale(1.2);
+
+}
+.box4{
+    padding:4px 0;
+    background:#F1F5F9;
+    overflow: hidden;
+   
+}
+.abox4{
+    padding:200px 0;
+    background-image:url('https://harrypottershop.co.uk/cdn/shop/products/PL00010104_1_grande_c73496a8-6ce6-40cb-a2a1-671df6dce73b.png?v=1679956809&width=533');
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+     transition: transform 0.6s ease;
+}
+.abox4:hover{
+    transform:scale(1.2);
+
+}
+.bbox2{
+    padding-left:120px;
+    padding-top:10px;
+    font-family:comic sans ms;
+}
+.bbox2 h4{
+    padding-left:80px;
+}
+.cbox2{
+    padding-left:80px;
+}
+.bbox3{
+    padding-left:120px;
+    padding-top:10px;
+    font-family:comic sans ms;
+}
+.bbox3 h4{
+    padding-left:80px;
+}
+.cbox3{
+    padding-left:80px;
+}
+.bbox4{
+    padding-left:120px;
+    padding-top:10px;
+    font-family:comic sans ms;
+}
+.bbox4 h4{
+    padding-left:80px;
+}
+.cbox4{
+    padding-left:80px;
+}
