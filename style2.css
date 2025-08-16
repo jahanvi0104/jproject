@@ -1,0 +1,93 @@
+body{
+
+}
+
+.toparea {
+    padding: 0px;
+    background: black;
+    text-align: center;
+    color: white;
+    
+}
+
+.toparea h1 {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.toparea h5 {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.toparea h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.menuarea {
+    padding: 10px 0;
+    background: white;
+}
+
+.mega-menu {
+    position: static;
+
+}
+
+.mega-menu .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    min-width: unset;
+    border-radius: 0;
+}
+
+.mega-menu h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.mega-menu .dropdown-menu img {
+    width: 240px;
+}
+
+.mega-menu a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.mega-menu a:hover {
+    text-decoration: underline;
+}
+
+.boxlogo {
+    padding: 10px 0;
+
+
+}
+
+.boxshop {
+    padding-left: 130px;
+}
+
+.boxgift {
+    padding-left: 130px;
+}
+.barea{
+    padding: 10px 0;
+    background: white;
+}
+.box1 {
+    padding: 250px 0;
+    background-image: url('sc.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
