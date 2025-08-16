@@ -1,190 +1,511 @@
-body{
+body {}
 
+.toparea {
+    padding: 0px;
+    background: black;
+    text-align: center;
+    color: white;
 }
-.toparea{
-    padding:0px;
-    background:black;
-    text-align:center;
-    color:white;
+
+.toparea h1 {
+    font-size: 15px;
+    margin-top: 5px;
 }
-.toparea h1{
-    font-size:15px;
-    margin-top:5px;
+
+.toparea h5 {
+    font-size: 15px;
+    margin-top: 5px;
 }
-.toparea h5{
-    font-size:15px;
-    margin-top:5px;
-}
-.toparea h5:hover{
+
+.toparea h5:hover {
     cursor: pointer;
-    text-decoration:underline;
-    text-decoration-thickness:2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
-.menuarea{
-    padding:10px 0;
-    background:white;
+.menuarea {
+    padding: 10px 0;
+    background: white;
 }
+
 .mega-menu {
-    position:static;
+    position: static;
 
 }
+
 .mega-menu .dropdown-menu {
-position: absolute;  
-  top: 100%;            
-  left: 0;              
-  right: 0;             
-  width: 100vw;         
-  min-width: unset;     
-  border-radius: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    min-width: unset;
+    border-radius: 0;
 }
+
 .mega-menu h6 {
-      font-weight: bold;
-      margin-bottom: 1rem;
-      
+    font-weight: bold;
+    margin-bottom: 1rem;
+
 }
-.mega-menu .dropdown-menu img{
+
+.mega-menu .dropdown-menu img {
     width: 240px;
 }
+
 .mega-menu a {
-      text-decoration: none;
-      color: #000;
-      display: block;
-      margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 0.5rem;
 }
-.mega-menu a:hover{
-    text-decoration:underline;
-}   
-    
-.boxlogo{
-    padding:10px 0;
-  
+
+.mega-menu a:hover {
+    text-decoration: underline;
+}
+
+.boxlogo {
+    padding: 10px 0;
+
 
 }
-.boxshop{
-    padding-left:130px;
+
+.boxshop {
+    padding-left: 130px;
 }
-.boxgift{
-    padding-left:130px;
+
+.boxgift {
+    padding-left: 130px;
 }
-.barea{
-    padding:10px 0;
+
+.barea {
+    padding: 10px 0;
+    background: white;
+}
+
+.box1 {
+    padding: 190px 0;
+    background-image: url('kn.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.abox1 {
+    color: white;
+    padding-left: 50px;
+
+}
+
+.abox1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.abox1 p {
+    font-family: comic sans ms;
+}
+
+.carea {
+    padding: 100px 0;
+    background: white;
+}
+
+.carea h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.box2 {
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox2 {
+    padding: 200px 0;
+    background-image: url('jh.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox2:hover {
+    transform: scale(1.2);
+
+}
+
+.box3 {
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox3 {
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/PL00010110_1_grande_3d639a06-d3b1-4ea0-842d-f21da99d44c4.png?v=1679958981&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox3:hover {
+    transform: scale(1.2);
+
+}
+
+.box4 {
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox4 {
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/PL00010104_1_grande_c73496a8-6ce6-40cb-a2a1-671df6dce73b.png?v=1679956809&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox4:hover {
+    transform: scale(1.2);
+
+}
+
+.bbox2 {
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox2 h4 {
+    text-align: center;
+}
+
+.cbox2 {
+    text-align: center;
+}
+
+.bbox3 {
+   text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox3 h4 {
+   text-align: center;
+}
+
+.cbox3 {
+   text-align: center;
+}
+
+.bbox4 {
+  text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox4 h4 {
+   text-align: center;
+}
+
+.cbox4 {
+    text-align: center;
+}
+
+.darea {
+    padding: 50px 0;
+    background: white;
+}
+
+.box5 {
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox5 {
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/files/2000009310_GryffindorKnittedSchoolSweater_A.png?v=1754984121&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox5:hover {
+    transform: scale(1.2);
+
+}
+.box6{
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox6{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/files/2000009317_Gryffindor_Knitted_School_Cardigan_A.png?v=1740408790&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox6:hover {
+    transform: scale(1.2);
+
+}
+.bbox6 {
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox6 h4 {
+    text-align: center;
+}
+
+.cbox6 {
+    text-align: center;
+}
+.box7{
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+
+.abox7{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/1231750_1_grande_652a5c40-c4b1-4e24-ba55-fa5898a302d7.png?v=1679959806&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox7:hover {
+    transform: scale(1.2);
+
+}
+.bbox7 {
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox7 h4 {
+    text-align: center;
+}
+
+.cbox7 {
+    text-align: center;
+}
+.bbox5{
+ text-align: center;
+    font-family: comic sans ms;
+}
+.cbox5 {
+    text-align: center;
+}
+.iarea{
+    padding:50px 0;
     background:white;
 }
-.box1{
-    padding:190px 0;
-    background-image:url('kn.webp');
-				background-size:cover;
-				background-position:center;
-				background-repeat:no-repeat;
+.box8{
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
 }
-.abox1{
-    color:white;
-    padding-left:50px;
-  
+.abox8{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/PL00010105_1.png?v=1679962831&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
 }
-.abox1 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:60px;
+
+.abox8:hover {
+    transform: scale(1.2);
+
 }
-.abox1 p{
-    font-family:comic sans ms;
+.bbox8 {
+    text-align: center;
+    font-family: comic sans ms;
 }
-.carea{
-    padding:100px 0;
+
+.bbox8 h4 {
+    text-align: center;
+}
+
+.cbox8 {
+    text-align: center;
+}
+.box9{
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+.abox9{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/files/2000009311_SlytherinKnittedSchoolSweater_A.png?v=1754984153&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox9:hover {
+    transform: scale(1.2);
+
+}
+.bbox9{
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox9 h4 {
+    text-align: center;
+}
+
+.cbox9 {
+    text-align: center;
+}
+.box10{
+    padding: 4px 0;
+    background: #F1F5F9;
+    overflow: hidden;
+
+}
+.abox10{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/files/2000009318_SlytherinKnittedSchoolCardigan_A.png?v=1740408861&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox10:hover {
+    transform: scale(1.2);
+
+}
+.bbox10{
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox10 h4 {
+    text-align: center;
+}
+
+.cbox10 {
+    text-align: center;
+}
+.jarea{
+    padding:50px 0;
     background:white;
 }
-.carea h3{
-    text-align:center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:40px;
-}
-.box2{
-    padding:4px 0;
-    background:#F1F5F9;
+.box11{
+    padding: 4px 0;
+    background: #F1F5F9;
     overflow: hidden;
-   
-}
-
-.abox2{
-    padding:200px 0;
-    background-image:url('jh.webp');
-				background-size:cover;
-				background-position:center;
-				background-repeat:no-repeat;
-     transition: transform 0.6s ease;
-}
-
-.abox2:hover{
-    transform:scale(1.2);
 
 }
-.box3{
-    padding:4px 0;
-    background:#F1F5F9;
+.abox11{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/PL00010107_1_grande_1afbf6f3-2f35-4a8e-a58e-a62f44377874.png?v=1679956828&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox11:hover {
+    transform: scale(1.2);
+
+}
+.bbox11{
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox11 h4 {
+    text-align: center;
+}
+
+.cbox11 {
+    text-align: center;
+}
+.box12{
+    padding: 4px 0;
+    background: #F1F5F9;
     overflow: hidden;
-   
-}
-.abox3{
-    padding:200px 0;
-    background-image:url('https://harrypottershop.co.uk/cdn/shop/products/PL00010110_1_grande_3d639a06-d3b1-4ea0-842d-f21da99d44c4.png?v=1679958981&width=533');
-				background-size:cover;
-				background-position:center;
-				background-repeat:no-repeat;
-     transition: transform 0.6s ease;
-}
-.abox3:hover{
-    transform:scale(1.2);
 
 }
-.box4{
-    padding:4px 0;
-    background:#F1F5F9;
+.abox12{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/PL00010106_1.png?v=1679996165&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
+}
+
+.abox12:hover {
+    transform: scale(1.2);
+
+}
+.bbox12{
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+.bbox12 h4 {
+    text-align: center;
+}
+
+.cbox12 {
+    text-align: center;
+}
+.box13{
+    padding: 4px 0;
+    background: #F1F5F9;
     overflow: hidden;
-   
-}
-.abox4{
-    padding:200px 0;
-    background-image:url('https://harrypottershop.co.uk/cdn/shop/products/PL00010104_1_grande_c73496a8-6ce6-40cb-a2a1-671df6dce73b.png?v=1679956809&width=533');
-				background-size:cover;
-				background-position:center;
-				background-repeat:no-repeat;
-     transition: transform 0.6s ease;
-}
-.abox4:hover{
-    transform:scale(1.2);
 
 }
-.bbox2{
-    padding-left:120px;
-    padding-top:10px;
-    font-family:comic sans ms;
+.abox13{
+    padding: 200px 0;
+    background-image: url('https://harrypottershop.co.uk/cdn/shop/products/1231751_1_grande_df230693-1b36-4faa-b188-bf797ff3ca6b.png?v=1679959811&width=533');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.6s ease;
 }
-.bbox2 h4{
-    padding-left:80px;
+
+.abox13:hover {
+    transform: scale(1.2);
+
 }
-.cbox2{
-    padding-left:80px;
+.bbox13{
+    text-align: center;
+    font-family: comic sans ms;
 }
-.bbox3{
-    padding-left:120px;
-    padding-top:10px;
-    font-family:comic sans ms;
+
+.bbox13 h4 {
+    text-align: center;
 }
-.bbox3 h4{
-    padding-left:80px;
-}
-.cbox3{
-    padding-left:80px;
-}
-.bbox4{
-    padding-left:120px;
-    padding-top:10px;
-    font-family:comic sans ms;
-}
-.bbox4 h4{
-    padding-left:80px;
-}
-.cbox4{
-    padding-left:80px;
+
+.cbox13 {
+    text-align: center;
 }
