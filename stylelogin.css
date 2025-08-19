@@ -1,0 +1,14 @@
+body{
+    
+}
+.mainarea{
+    padding:370px 0;
+    background-image: url('yu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.abox{
+    padding-left:500px;
+    
+}
