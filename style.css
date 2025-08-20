@@ -1,9 +1,43 @@
 body{
 
 }
+.mainarea{
+    padding:0px 0;
+    background: #AA8855;
+}
+.country-flag {
+      width: 20px;
+      height: 15px;
+      object-fit: cover;
+      margin-right: 8px;
+}
+.dropdown-menu {
+      max-height: 200px;
+      overflow-y: auto;
+      color:white;
+      background: #000;
+      
+}
+.dropdown-menu h7{
+    color:whitesmoke;
+}
+.dropdown-menu h7:hover{
+    background:#AA8855;
+    color:black;
+}
+.marquee{
+    color:white;
+    font-weight: lighter;
+    margin-top:6px;
+}
+.fan img{
+    width:350px;
+    padding-left:270px;
+    
+}
 .toparea{
     padding:0px;
-    background:black;
+    background:black; 
     text-align:center;
     color:white;
 }
@@ -431,7 +465,7 @@ body{
     color:white;
 }
 .footerarea li{
-    margin-left:-30px;
+    margin-left:-20px;
     color:wheat;
     list-style:none;
 }
