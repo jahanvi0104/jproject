@@ -12,14 +12,13 @@ body{
       margin-right: 8px;
 }
 .dropdown-menu {
-      max-height: 200px;
-      overflow-y: auto;
-      color:white;
-      background: #000;
+      max-height: 400px;
+     
+      
       
 }
 .dropdown-menu h7{
-    color:whitesmoke;
+    color:black;
 }
 .dropdown-menu h7:hover{
     background:#AA8855;
@@ -480,4 +479,31 @@ body{
     color:white;
     font-size:14px;
     padding-left:30px;
+}
+.tilt {
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+	transform-style: preserve-3d;
+	margin: 50px auto;
+}
+
+.tilt-logo {
+	width: 20px;
+	height: 20px;
+	background-color: #7e56ff;
+	background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);
+}
+
+.tilt-logo-inner {
+	transform: translateZ(50px) translateY(-50%) translateX(-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	font-size: 1.9rem;
+}
+
+.tilt-movie, .tilt-movie img {
+	width: 200px;
+	height: 250px;
+    margin-top:-10px;
 }
